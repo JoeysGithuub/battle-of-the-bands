@@ -8,3 +8,14 @@ const takeNumber = (bandName) => {
 
 takeNumber ('Pearl Jam');
 takeNumber ('Primus');
+
+let bandNum = 0;
+const bandNam = "";
+
+const whatNumber = (bandNam) => {
+    bandNum++
+    console.log(`${bandNum}` , `${bandNam}`)
+}
+
+whatNumber ("Nine Inch Nails")
+whatNumber ("Pink Floyd")
